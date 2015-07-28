@@ -1,0 +1,62 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homepage_coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePageActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_padding"
+        android:paddingLeft="@dimen/activity_horizontal_padding"
+        android:paddingRight="@dimen/activity_horizontal_padding"
+        android:paddingTop="@dimen/activity_vertical_padding" >
+
+        <Button
+            android:id="@+id/googleplus_homepage_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/googleplus_homepage_string"
+            />
+
+        <Button
+            android:id="@+id/facebook_homepage_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/facebook_homepage_string"
+            android:layout_below="@+id/googleplus_homepage_button"
+            />
+
+        <Button
+            android:id="@+id/instagram_homepage_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instagram_homepage_string"
+            android:layout_below="@+id/facebook_homepage_button"
+            />
+
+        <Button
+            android:id="@+id/twitter_homepage_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/twitter_homepage_string"
+            android:layout_below="@+id/instagram_homepage_button"
+            />
+
+        <!-- TODO: Sostituire i Button con i RecyclerView -->
+
+    </RelativeLayout>
+
+    <!-- Inserire qui altre View, come
+    - il Floating Action Button (FAB)
+    - il RecyclerView
+    - l'AppBarLayout
+    - la Toolbar e il CollapsingToolbarLayout -->
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+

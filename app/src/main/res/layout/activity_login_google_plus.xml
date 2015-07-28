@@ -1,0 +1,53 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/googlepluslogin_coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.napples.socialautoshare.LoginGooglePlusActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin" >
+
+        <TextView
+            android:id="@+id/google_plus_status_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signed_out"
+            android:textSize="@dimen/abc_text_size_small_material"
+            android:layout_centerHorizontal="true"
+            />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/google_plus_sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/google_plus_status_textview"
+            />
+
+        <Button
+            android:id="@+id/google_plus_sign_out_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_out"
+            android:layout_below="@+id/google_plus_sign_in_button"
+            />
+
+        <Button
+            android:id="@+id/google_plus_disconnect_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/disconnect"
+            android:layout_below="@+id/google_plus_sign_in_button"
+            android:layout_toEndOf="@id/google_plus_sign_out_button" />
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

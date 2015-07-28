@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SocialAutoShare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Impostazioni</string>
+
+    <!-- Home Page Activity -->
+    <string name="title_activity_home_page">Social Auto Share</string>
+    <string name="googleplus_homepage_string">Google +</string>
+    <string name="facebook_homepage_string">Facebook</string>
+    <string name="instagram_homepage_string">Instagram</string>
+    <string name="twitter_homepage_string">Twitter</string>
+    <string name="title_activity_login_google_plus">LoginGooglePlusActivity</string>
+
+    <!-- Google Plus buttons -->
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="signing_in">Signing in…</string>
+    <string name="signed_out">Signed out</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+
+    <!-- Google Play Services error for Toast -->
+    <string name="play_services_error_fmt">Google Play Services Error: %i</string>
+
+</resources>
