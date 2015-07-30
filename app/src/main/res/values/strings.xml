@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">SocialAutoShare</string>
+    <string name="app_name">Social AutoShare</string>
+    <string name="title_activity_login_google_plus">Login Google</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Impostazioni</string>
 
     <!-- Home Page Activity -->
     <string name="title_activity_home_page">Social Auto Share</string>
@@ -9,16 +9,24 @@
     <string name="facebook_homepage_string">Facebook</string>
     <string name="instagram_homepage_string">Instagram</string>
     <string name="twitter_homepage_string">Twitter</string>
-    <string name="title_activity_login_google_plus">LoginGooglePlusActivity</string>
 
     <!-- Google Plus buttons -->
-    <string name="signed_in_fmt">Signed in as: %s</string>
-    <string name="signing_in">Signing in…</string>
-    <string name="signed_out">Signed out</string>
-    <string name="sign_out">Sign Out</string>
-    <string name="disconnect">Disconnect</string>
+    <string name="signed_in">Accesso eseguito</string>
+    <string name="signing_in">Accesso in corso…</string>
+    <string name="signed_out">Accesso non eseguito</string>
+    <string name="logout_button_text">Logout</string>
+    <string name="revoke_button_text">Revoca Accesso</string>
 
-    <!-- Google Play Services error for Toast -->
+    <!-- Google Play Services error for Snackbar -->
     <string name="play_services_error_fmt">Google Play Services Error: %i</string>
+
+    <!-- Menu -->
+    <string name="action_settings">Impostazioni</string>
+
+    <!-- Content Description for images -->
+    <string name="desc_facebook_icon">Facebook Logo</string>
+    <string name="desc_google_icon">Google Logo</string>
+    <string name="desc_instagram_icon">Instagram Logo</string>
+    <string name="desc_twitter_icon">Twitter Logo</string>
 
 </resources>

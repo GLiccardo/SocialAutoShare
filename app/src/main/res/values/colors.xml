@@ -10,9 +10,10 @@
     <item name="twitter_color" type="color">#00aced</item>
     <item name="youtube_color" type="color">#bb0000</item>
 
-    <!-- Material Design: Bianco, Nero -->
+    <!-- Material Design: Bianco, Nero, Trasparente -->
     <item name="black" type="color">#000000</item>
     <item name="white" type="color">#FFFFFF</item>
+    <item name="transparent" type="color">#00FFFFFF</item>
 
     <!-- Material Design: Grey -->
     <item name="grey50" type="color">#FAFAFA</item>

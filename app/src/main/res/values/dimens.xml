@@ -10,4 +10,10 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
+    <!-- Login Screen -->
+    <dimen name="logo_top_margin">20dp</dimen>
+    <dimen name="logo_bottom_margin">16dp</dimen>
+    <dimen name="username_top_margin">4dp</dimen>
+    <dimen name="email_top_margin">12dp</dimen>
+
 </resources>

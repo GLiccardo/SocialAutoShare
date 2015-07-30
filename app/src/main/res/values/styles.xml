@@ -2,10 +2,10 @@
 <resources>
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/blue_grey500</item>
+        <item name="colorPrimary">@color/blue_grey700</item>
         <item name="colorPrimaryDark">@color/blue_grey900</item>
         <item name="colorAccent">@color/light_blue500</item>
-        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowBackground">@color/blue_grey900</item>
         <!-- colorPrimary is used for the default action bar background -->
         <!-- colorPrimaryDark is used for the status bar -->
         <!-- colorAccent is used as the default value for colorControlActivated, which is used to tint widgets -->
