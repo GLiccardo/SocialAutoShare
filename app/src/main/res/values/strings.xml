@@ -1,24 +1,30 @@
 <resources>
     <string name="app_name">Social AutoShare</string>
-    <string name="title_activity_login_google_plus">Login Google</string>
+    <string name="title_activity_login_google">Login Google</string>
+    <string name="title_activity_login_facebook">Login Facebook</string>
     <string name="hello_world">Hello world!</string>
 
     <!-- Home Page Activity -->
     <string name="title_activity_home_page">Social Auto Share</string>
-    <string name="googleplus_homepage_string">Google +</string>
+    <string name="google_homepage_string">Google +</string>
     <string name="facebook_homepage_string">Facebook</string>
     <string name="instagram_homepage_string">Instagram</string>
     <string name="twitter_homepage_string">Twitter</string>
 
-    <!-- Google Plus buttons -->
+    <!-- Google Login -->
     <string name="signed_in">Accesso eseguito</string>
     <string name="signing_in">Accesso in corso…</string>
     <string name="signed_out">Accesso non eseguito</string>
     <string name="logout_button_text">Logout</string>
     <string name="revoke_button_text">Revoca Accesso</string>
 
-    <!-- Google Play Services error for Snackbar -->
-    <string name="play_services_error_fmt">Google Play Services Error: %i</string>
+    <!-- Login Error for Snackbar -->
+    <string name="play_services_error">Google Play Services Error: %i</string>
+    <string name="facebook_error">Facebook: %i</string>
+    <string name="facebook_cancel">Tentativo di login cancellato</string>
+
+    <!-- Facebook Login -->
+    <string name="facebook_app_id">658935754206147</string>
 
     <!-- Menu -->
     <string name="action_settings">Impostazioni</string>
@@ -28,5 +34,6 @@
     <string name="desc_google_icon">Google Logo</string>
     <string name="desc_instagram_icon">Instagram Logo</string>
     <string name="desc_twitter_icon">Twitter Logo</string>
+
 
 </resources>

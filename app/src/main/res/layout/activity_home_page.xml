@@ -18,7 +18,7 @@
             android:id="@+id/googleplus_homepage_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/googleplus_homepage_string"
+            android:text="@string/google_homepage_string"
             />
 
         <Button
