@@ -1,0 +1,223 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="beforeDescendants"
+    tools:showIn="@layout/activity_home_page"
+    tools:context="net.napples.socialautoshare.HomePageActivityFragment">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:background="@color/red50" >
+
+        <TableRow
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:paddingTop="@dimen/home_page_vertical_margin"
+            android:paddingBottom="@dimen/home_page_vertical_margin"
+            android:background="@color/blue_grey300" >
+
+            <ImageView
+                android:src="@drawable/facebook_square"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1.4"
+                android:layout_gravity="center"
+                android:maxWidth="35dp"
+                android:maxHeight="35dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_weight="0.01"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/home_page_divider_color"
+                />
+
+            <ImageView
+                android:src="@drawable/google_square"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1.4"
+                android:layout_gravity="center"
+                android:maxWidth="35dp"
+                android:maxHeight="35dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_weight="0.01"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/home_page_divider_color"
+                />
+
+            <ImageView
+                android:src="@drawable/twitter_square"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1.4"
+                android:layout_gravity="center"
+                android:maxWidth="35dp"
+                android:maxHeight="35dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_weight="0.01"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/home_page_divider_color"
+                />
+
+            <ImageView
+                android:src="@drawable/add_square"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:maxWidth="35dp"
+                android:maxHeight="35dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:paddingLeft="@dimen/home_page_horizontal_margin"
+            android:paddingRight="@dimen/home_page_horizontal_margin"
+            android:paddingTop="@dimen/home_page_horizontal_margin"
+            android:paddingBottom="@dimen/home_page_horizontal_margin"
+            android:background="@color/blue_grey50" >
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:gravity="top|start"
+                android:inputType="textMultiLine"
+                android:hint="Inserisci del testo qui"
+                android:scrollHorizontally="false"
+                android:maxLines ="5"
+                android:scrollbars="vertical"
+                style="@android:style/TextAppearance.Medium"
+                android:textColor="@color/black"
+                android:background="@android:color/transparent"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:paddingTop="@dimen/home_page_vertical_margin"
+            android:paddingBottom="@dimen/home_page_vertical_margin"
+            android:background="@color/blue_grey300" >
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:paddingEnd="24dp"
+                android:paddingStart="8dp"
+                android:maxLines="1"
+                android:text="CARICA FOTO"
+                android:textSize="20sp"
+                android:textColor="@color/blue900"
+                android:textStyle="bold"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_weight="0.01"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/home_page_divider_color"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:paddingStart="24dp"
+                android:paddingEnd="8dp"
+                android:maxLines="1"
+                android:text="PROGRAMMA"
+                android:textSize="20sp"
+                android:textColor="@color/blue900"
+                android:textStyle="bold"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="0dp"
+            android:layout_weight="5.3"
+            android:paddingLeft="@dimen/home_page_horizontal_margin"
+            android:paddingRight="@dimen/home_page_horizontal_margin"
+            android:paddingTop="@dimen/home_page_vertical_margin"
+            android:paddingBottom="@dimen/home_page_vertical_margin"
+            android:background="@color/blue_grey700" >
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="5.3"
+                android:text="@string/app_name"
+                android:textSize="20sp"
+                android:textColor="@color/redA700"
+                android:textStyle="bold|italic"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:paddingLeft="@dimen/home_page_horizontal_margin"
+            android:paddingRight="@dimen/home_page_horizontal_margin"
+            android:paddingTop="@dimen/home_page_vertical_margin"
+            android:paddingBottom="@dimen/home_page_vertical_margin"
+            android:background="@color/red700" >
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="5.3"
+                android:text="PUBBLICA"
+                android:textSize="26sp"
+                android:textColor="@color/redA700"
+                android:textStyle="bold|italic"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

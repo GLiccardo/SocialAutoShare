@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- App Colours -->
+    <item name="home_page_divider_color" type="color">#78909C</item>
+
     <!-- Social Network Colors -->
     <item name="facebook_color" type="color">#3b5998</item>
     <item name="googleplus_color" type="color">#d34836</item>
