@@ -10,6 +10,13 @@
         <!-- colorPrimaryDark is used for the status bar -->
         <!-- colorAccent is used as the default value for colorControlActivated, which is used to tint widgets -->
     </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/red800</item>
+        <item name="android:textColorPrimary">@color/blue_grey800</item>
+        <item name="android:background">@color/blue_grey100</item>
+    </style>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

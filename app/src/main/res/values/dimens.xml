@@ -16,6 +16,7 @@
     <dimen name="home_page_vertical_margin">2dp</dimen>
     <dimen name="home_page_icons_max_length">35dp</dimen>
     <dimen name="home_page_divider_margin">6dp</dimen>
+    <dimen name="home_page_padding_imageview">50dp</dimen>
 
     <!-- Login Screen -->
     <dimen name="logo_top_margin">20dp</dimen>

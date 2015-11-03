@@ -20,6 +20,7 @@
         android:background="@color/blue_grey300" >
 
         <ImageView
+            android:id="@+id/facebook_login_image_view"
             android:src="@drawable/facebook_square"
             android:layout_height="match_parent"
             android:layout_width="0dp"
@@ -29,6 +30,7 @@
             android:maxHeight="@dimen/home_page_icons_max_length"
             android:scaleType="centerInside"
             android:adjustViewBounds="true"
+            android:contentDescription="@string/home_page_facebook_icon_description"
             />
 
         <View
@@ -40,6 +42,7 @@
             />
 
         <ImageView
+            android:id="@+id/google_login_image_view"
             android:src="@drawable/google_square"
             android:layout_height="match_parent"
             android:layout_width="0dp"
@@ -49,6 +52,7 @@
             android:maxHeight="@dimen/home_page_icons_max_length"
             android:scaleType="centerInside"
             android:adjustViewBounds="true"
+            android:contentDescription="@string/home_page_google_icon_description"
             />
 
         <View
@@ -60,6 +64,7 @@
             />
 
         <ImageView
+            android:id="@+id/twitter_login_image_view"
             android:src="@drawable/twitter_square"
             android:layout_height="match_parent"
             android:layout_width="0dp"
@@ -69,6 +74,7 @@
             android:maxHeight="@dimen/home_page_icons_max_length"
             android:scaleType="centerInside"
             android:adjustViewBounds="true"
+            android:contentDescription="@string/home_page_twitter_icon_description"
             />
 
         <View
@@ -80,6 +86,7 @@
             />
 
         <ImageView
+            android:id="@+id/add_social_image_view"
             android:src="@drawable/add_square"
             android:layout_height="match_parent"
             android:layout_width="0dp"
@@ -89,6 +96,7 @@
             android:maxHeight="@dimen/home_page_icons_max_length"
             android:scaleType="centerInside"
             android:adjustViewBounds="true"
+            android:contentDescription="@string/home_page_add_icon_description"
             />
 
     </LinearLayout>
@@ -108,7 +116,7 @@
         android:paddingBottom="@dimen/home_page_horizontal_margin"
         android:gravity="top|start"
         android:inputType="textMultiLine"
-        android:hint="Inserisci del testo qui"
+        android:hint="@string/hint_post_edit_text"
         style="@android:style/TextAppearance.Medium"
         android:textColor="@color/black"
         android:background="@color/blue_grey50"
@@ -116,7 +124,7 @@
 
     <!-- TODO: Insert layout_above -->
     <LinearLayout
-        android:id="@+id/home_page_attach_schedule_linear_layout"
+        android:id="@+id/home_page_schedule_post_linear_layout"
         android:layout_height="0dp"
         android:layout_width="0dp"
         app:layout_heightPercent="9%"
@@ -130,58 +138,62 @@
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="0dp"
-            android:layout_weight="5"
+            android:layout_weight="0.5"
             android:layout_gravity="center"
-            android:gravity="end"
-            android:paddingEnd="24dp"
-            android:paddingStart="8dp"
+            android:gravity="start"
+            android:paddingStart="@dimen/home_page_horizontal_margin"
+            android:paddingEnd="@dimen/home_page_horizontal_margin"
             android:maxLines="1"
-            android:text="CARICA FOTO"
+            android:text="@string/schedule_post_string"
             android:textSize="20sp"
             android:textColor="@color/blue900"
             android:textStyle="bold"
-            />
-
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="@dimen/home_page_divider_margin"
-            android:layout_marginTop="@dimen/home_page_divider_margin"
-            android:background="@color/home_page_divider_color"
             />
 
         <TextView
+            android:id="@+id/home_page_data_ora_post_text_view"
             android:layout_height="wrap_content"
             android:layout_width="0dp"
-            android:layout_weight="5"
-            android:layout_gravity="center"
-            android:gravity="start"
-            android:paddingStart="24dp"
-            android:paddingEnd="8dp"
+            android:layout_weight="0.5"
+            android:layout_gravity="center_vertical"
+            android:gravity="end"
+            android:paddingStart="@dimen/home_page_horizontal_margin"
+            android:paddingEnd="@dimen/home_page_horizontal_margin"
             android:maxLines="1"
-            android:text="PROGRAMMA"
+            android:text="@string/date_post_string"
             android:textSize="20sp"
-            android:textColor="@color/blue900"
-            android:textStyle="bold"
+            android:textColor="@color/blue_grey800"
             />
 
     </LinearLayout>
 
-    <ImageView
-        android:src="@drawable/twitter_square"
-        android:layout_height="0dp"
+    <LinearLayout
+        android:id="@+id/home_page_pic_linear_layout"
         android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_heightPercent="40%"
         app:layout_widthPercent="100%"
         android:layout_below="@+id/home_page_attach_schedule_linear_layout"
-        android:layout_above="@+id/home_page_publish_text_view"
-        android:layout_gravity="center"
-        android:scaleType="fitCenter"
-        android:adjustViewBounds="true"
-        />
+        android:layout_above="@+id/home_page_share_post_text_view"
+        >
+
+        <ImageView
+            android:id="@+id/home_page_pic_image_view"
+            android:src="@drawable/no_image_icon"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:padding="@dimen/home_page_padding_imageview"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:alpha="0.3"
+            android:contentDescription="@string/home_page_noimage_icon_description"
+            />
+
+    </LinearLayout>
 
     <TextView
-        android:id="@+id/home_page_publish_text_view"
+        android:id="@+id/home_page_share_post_text_view"
         android:layout_height="0dp"
         android:layout_width="0dp"
         app:layout_heightPercent="12%"
@@ -189,7 +201,7 @@
         android:layout_alignParentBottom="true"
         android:gravity="center"
         android:maxLines="1"
-        android:text="PUBBLICA"
+        android:text="@string/share_post_string"
         android:textSize="28sp"
         android:textColor="@color/black"
         android:textStyle="bold"

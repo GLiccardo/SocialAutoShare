@@ -7,6 +7,12 @@
     <string name="hello_world">Hello world!</string>
 
     <!-- Home Page Activity -->
+    <string name="hint_post_edit_text">Inserisci del testo qui</string>
+    <string name="date_post_string">Ora</string>
+    <string name="schedule_post_string">PIANIFICA POST</string>
+    <string name="share_post_string">PUBBLICA</string>
+
+    <!-- Login Activity -->
     <string name="title_activity_home_page">Social Auto Share</string>
     <string name="google_homepage_string">Google +</string>
     <string name="facebook_homepage_string">Facebook</string>
@@ -27,6 +33,13 @@
 
     <!-- Facebook Login -->
     <string name="facebook_app_id">658935754206147</string>
+
+    <!-- ImageView Content Description -->
+    <string name="home_page_facebook_icon_description">"Facebook" icon</string>
+    <string name="home_page_google_icon_description">"Google" icon</string>
+    <string name="home_page_twitter_icon_description">"Twitter" icon</string>
+    <string name="home_page_add_icon_description">"Add" icon</string>
+    <string name="home_page_noimage_icon_description">"No Image" icon</string>
 
     <!-- Menu -->
     <string name="action_settings">Impostazioni</string>
