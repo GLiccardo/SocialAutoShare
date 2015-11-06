@@ -11,6 +11,7 @@
     <string name="date_post_string">Ora</string>
     <string name="schedule_post_string">PIANIFICA POST</string>
     <string name="share_post_string">PUBBLICA</string>
+    <string name="album_name">Social AutoShare</string>
 
     <!-- Login Activity -->
     <string name="title_activity_home_page">Social Auto Share</string>
