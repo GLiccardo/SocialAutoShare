@@ -11,7 +11,7 @@
         android:id="@+id/home_page_social_media_icon_linear_layout"
         android:layout_height="0dp"
         android:layout_width="0dp"
-        app:layout_heightPercent="9%"
+        app:layout_heightPercent="10%"
         app:layout_widthPercent="100%"
         android:layout_alignParentTop="true"
         android:orientation="horizontal"
@@ -101,12 +101,11 @@
 
     </LinearLayout>
 
-    <!-- TODO: Inserire layout_above nell'editText -->
     <EditText
         android:id="@+id/home_page_post_edit_text"
         android:layout_height="0dp"
         android:layout_width="0dp"
-        app:layout_heightPercent="30%"
+        app:layout_heightPercent="32%"
         app:layout_widthPercent="100%"
         android:layout_below="@+id/home_page_social_media_icon_linear_layout"
         android:layout_above="@+id/home_page_post_edit_text"
@@ -127,9 +126,10 @@
         android:id="@+id/home_page_schedule_post_linear_layout"
         android:layout_height="0dp"
         android:layout_width="0dp"
-        app:layout_heightPercent="9%"
+        app:layout_heightPercent="10%"
         app:layout_widthPercent="100%"
         android:layout_below="@+id/home_page_post_edit_text"
+        android:layout_above="@+id/home_page_pic_linear_layout"
         android:orientation="horizontal"
         android:paddingTop="@dimen/home_page_vertical_margin"
         android:paddingBottom="@dimen/home_page_vertical_margin"
@@ -196,16 +196,19 @@
         android:id="@+id/home_page_share_post_text_view"
         android:layout_height="0dp"
         android:layout_width="0dp"
-        app:layout_heightPercent="12%"
+        app:layout_heightPercent="8%"
         app:layout_widthPercent="100%"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/button_horizontal_margin"
+        android:layout_marginEnd="@dimen/button_horizontal_margin"
         android:gravity="center"
         android:maxLines="1"
         android:text="@string/share_post_string"
-        android:textSize="28sp"
+        android:textAllCaps="true"
+        android:textSize="26sp"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:background="@color/red700"
+        android:background="@color/amber500"
         />
 
 </android.support.percent.PercentRelativeLayout>

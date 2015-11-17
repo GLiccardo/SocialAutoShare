@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- <style name="AppTheme" parent="Theme.AppCompat.Light.DarkAction"> -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/blue_grey700</item>
         <item name="colorPrimaryDark">@color/blue_grey900</item>
@@ -8,11 +9,25 @@
         <item name="android:windowBackground">@color/blue_grey900</item>
         <!-- colorPrimary is used for the default action bar background -->
         <!-- colorPrimaryDark is used for the status bar -->
-        <!-- colorAccent is used as the default value for colorControlActivated, which is used to tint widgets -->
+        <!-- colorAccent is used as the default value for colorControlActivated, which is used to tint widgets, for example the FAB -->
+    </style>
+
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue_grey700</item>
+        <item name="colorPrimaryDark">@color/blue_grey900</item>
+        <item name="colorAccent">@color/light_blue500</item>
+        <item name="android:windowBackground">@color/blue_grey900</item>
+    </style>
+
+    <style name="AppTheme.Launcher">
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+        <item name="colorPrimaryDark">@color/blue_grey900</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
     <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
-        <item name="colorAccent">@color/red800</item>
+        <item name="colorAccent">@color/red900</item>
         <item name="android:textColorPrimary">@color/blue_grey800</item>
         <item name="android:background">@color/blue_grey100</item>
     </style>
