@@ -13,6 +13,12 @@
     <string name="share_post_string">PUBBLICA</string>
     <string name="album_name">Social AutoShare</string>
 
+    <!-- Facebook Sharing -->
+    <string name="fb_share_ok">OK</string>
+    <string name="fb_share_success">Caricamento completato</string>
+    <string name="fb_share_error">Si è verificato un errore</string>
+    <string name="successfully_posted_post">Post ID: %1$s</string>
+
     <!-- Login Activity -->
     <string name="title_activity_home_page">Social Auto Share</string>
     <string name="google_homepage_string">Google +</string>
